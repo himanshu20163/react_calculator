@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+
 In the project directory, you can run:
 
 ### `npm start`
@@ -13,6 +14,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## App.js file call to Udesign Component this component showing a all design and functionalty 
+
+### Udesign component data multiple showing button all click function call to assume that ac button click to clear two state 
+because of first clear data and string cocant data 
+
+after that equal function call to calaulate the result just showing i use the eval function to caluclating the result 
+
+##thankyou
 
 ### `npm test`
 
