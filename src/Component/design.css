@@ -1,0 +1,77 @@
+.main_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height:100vh;
+    width:100%;
+
+}
+.main_cal{
+    
+    box-sizing: border-box;
+    background-color: black;
+    box-sizing: border-box;
+    height:55vh;
+    width:320px;
+}
+#display_data{
+    background-color: white;
+    height: 20%;
+    width:99%;
+    border:2px solid rgb(3, 5, 3);
+}
+#operation{
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:70%;
+    width:100%;
+}
+button{
+    color:white;
+    background-color: #4d4d4d;
+    font-size: 16px;
+    height:40px;
+    width:72px;
+}
+.num{
+    width:82px;
+}
+#equal{
+    color:white;
+    background-color: #021b88;
+    font-size: 16px;
+    height:95px;
+    width:22%; 
+}
+#AC{
+    background-color: brown;
+    width:51%;
+}
+#zero{
+    padding-left:5px;
+    height:55px;
+    width:52%;
+    bottom:-22px;
+    position: absolute;
+}
+button:hover{
+    border-style: none;
+    color:rgb(0, 0, 0);
+    transform: scale(1.02);
+    min-zoom: 10;
+    transition: 0.5s;
+    box-shadow:0px 0px 2px white;
+    background-color: #ffffff;
+}
+#dot{
+    height:55px;
+    bottom:-22px;
+    left:167px;
+    position: absolute;  
+}
