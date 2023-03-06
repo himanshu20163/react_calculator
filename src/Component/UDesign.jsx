@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 
 function UDesign() {
-  const[history,sethistory] = useState();
+  const[history,sethistory] = useState('');
   const[value,setvalue] = useState('');
   const cal = (e) =>{
     if(sethistory == 0){
