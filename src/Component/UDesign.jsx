@@ -7,7 +7,13 @@ function UDesign() {
   const[history,sethistory] = useState('0');
   const[value,setvalue] = useState('');
   const cal = (e) =>{
-    sethistory(history.concat(e.target.value));
+    if(sethistory == 0){
+       sethistory('');
+    }
+    else{
+      sethistory(history.concat(e.target.value));
+    }
+    
   }
   const equal = () =>{
      setvalue(eval(history).toString());
@@ -26,7 +32,7 @@ function UDesign() {
             </div>
             <div id="operation">
                 <button id="AC" value="AC" onClick={clear}>AC</button>
-                <button id="divide" className='num' value="/" onClick={cal}>/</button>
+                <button id="divide" className='num' value="/" onClick={cal} >/</button>
                 <button id="multiply" value="*" onClick={cal}>x</button>
                 <button id="seven " className='num' value="7" onClick={cal}>7</button>
                 <button id="eight" className='num' value="8" onClick={cal}>8</button>
