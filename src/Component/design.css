@@ -55,7 +55,7 @@ button{
 }
 #zero{
     padding-left:5px;
-    height:55px;
+    height:60px;
     width:52%;
     bottom:-22px;
     position: absolute;
@@ -70,7 +70,7 @@ button:hover{
     background-color: #ffffff;
 }
 #dot{
-    height:55px;
+    height:60px;
     bottom:-22px;
     left:167px;
     position: absolute;  
